@@ -1,0 +1,232 @@
+@font-face {
+    font-family:Arial, Helvetica, sans-serif ;
+    src: url("fonts/OL.TTF");
+}
+.container{
+    width: 1200px;
+    margin:auto;   
+}
+
+
+body,ul{
+   
+    direction:ltr;
+     padding:auto;
+    margin: auto;
+    border-left: azure 10px;
+}
+header{
+    background-image:url("../images/11-tiara.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    height: 500px;
+    position: relative;
+
+}
+
+header nav{
+    width: 100%;
+    background-color: rgb(0,0,0,.1);
+    height: 60px;
+}
+header nav ul{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    direction: ltr;
+    list-style: none;
+    justify-content: center;
+    
+
+}
+header nav ul li  h2 p{
+margin-right: 30px;
+margin-top: 20px;
+line-height: 2px;
+padding-left: 15px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(222, 230, 223);
+    font-size: 22px;   
+    margin-left: 25px;
+
+}
+header .header-content{
+    position: absolute;
+    top:40%;
+    left:30%;
+    text-align: center;
+}
+header .header-content h1{
+    font-size: 50px;
+        color: #f5f0f0;
+}
+header .header-content p{
+    color: rgb(214, 38, 38);
+    font-size: 25px;
+    text-align: center;
+}
+/*service*/
+#service{
+    width:100% ;
+}
+#service .service-tittle{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: rgb(56, 58, 57) 10px;
+    padding-bottom:40px ;
+}
+#service .service-tittle h2{
+    font-size: 50px;
+    color:rgb(27, 48, 240);
+}
+
+#service .service-tittle p{
+    width: 900px;
+    margin: auto;
+    margin-top:30px;
+    font-size: 20px;
+}
+#service .service-tittle p span{
+    color: crimson;
+}
+
+#service .service-content{
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+}
+#service .service-content-item{
+    background-color: rgb(236, 185, 236);
+    width: calc(33.33% - 20px);
+    text-align: center;
+}
+#service .service-content-item h2{
+    font-size: 25px;
+    font-weight: 600px;
+}
+#service .service-content-item i{
+    font-size: 40px;
+    color: crimson;
+    margin-top: 10px;
+}
+#service .service-content-item p{
+    margin-bottom: 20px;
+}
+#service .service-content-item a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: rgb(139, 56, 139);
+    color: rgb(241, 241, 241);
+    border-radius: 3px;
+    text-align: center;
+
+}
+#service .service-content-item a:hover{
+    background-color: rgb(105, 40, 105);
+    color: rgb(39, 20, 163);
+    
+}
+/* blog*/
+#blog{
+    width:100%;
+    padding: 100px 0;
+}
+#blog .title{
+    text-align: center;
+
+}
+
+#blog .blog{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#blog .blog .blog-item{
+    width: 50%;
+    text-align: center;
+}
+#blog .blog .blog-item h3{
+    font-size: 18px;
+}
+#blog .blog .blog-item p{
+    margin: auto;
+    padding-bottom: 20px;
+}
+/*message*/
+#message{
+    background-image: url(../images/12-tiara.JPG);
+    background-size: cover;
+    height: 300px;
+    background-attachment: fixed;
+}
+#message .overlay{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left:0;
+    top: 0;
+    background-color: rgb(0,0,0,.1);
+}
+#message .overlay p{
+    padding-top: 130px;
+    font-size: 20px;
+    color: rgb(189, 64, 162);
+    text-align: center;
+}
+/*Footer*/
+footer{
+    width: 100%;
+    background-color: rgb(243, 197, 233);
+
+}
+footer .footer-title{
+    width: 100%;
+    text-align: center;
+}
+footer .footer-title h2{
+    margin-top: 20px;
+    color: rgb(82, 83, 82);
+}
+footer .footer-title p{
+    color: rgb(37, 37, 37);
+}
+footer .footer-social{
+    display: flex;
+    margin-top: 40px;
+}
+footer .footer-social ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+footer .footer-social ul li{
+    margin:0 40px;
+
+
+}
+footer .footer-social ul li a i{
+    font-size: 40px;
+    color: rgb(14, 12, 12);
+}
+footer .footer-social ul li a:hover i{
+    color: rgb(104, 98, 98);
+}
+footer copy-right{
+    width: 100%;
+    color: rgb(37, 37, 37);
+    padding: 50px 0 0 0;
+    border-top: 10px solid rgb(238, 148, 148);
+}
+footer copy-right p{
+    text-align: center;
+}
+
+
+
